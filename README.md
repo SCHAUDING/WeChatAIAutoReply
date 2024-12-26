@@ -13,7 +13,8 @@
 将代码中API部分的KEY等关键信息换成自己的KEY即可使用AI自动回复，其他使用相关内容请参考[wxauto官方使用文档](https://wxauto.loux.cc/docs/intro)
 ## 修改举例
 ### 讯飞星火大模型
-SPARKAI_URL、SPARKAI_APP_ID、SPARKAI_API_SECRET、SPARKAI_API_KEY、SPARKAI_DOMAIN 需要修改为自己的参数值
+SPARKAI_URL、SPARKAI_APP_ID、SPARKAI_API_SECRET、SPARKAI_API_KEY、SPARKAI_DOMAIN  
+需要修改为自己的参数值
 ```
 #星火认知大模型Spark Max的URL值，其他版本大模型URL值请前往文档（https://www.xfyun.cn/doc/spark/Web.html）查看
 SPARKAI_URL = ''
@@ -25,7 +26,8 @@ SPARKAI_API_KEY = ''
 SPARKAI_DOMAIN = ''
 ```
 ### 百度千帆大模型
-API_KEY、SECRET_KEY 需要修改为自己的参数值
+API_KEY、SECRET_KEY  
+需要修改为自己的参数值
 ```
 API_KEY = "YOUR API_KEY"
 SECRET_KEY = "YOUR SECRET_KEY"
