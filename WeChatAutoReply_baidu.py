@@ -49,7 +49,7 @@ while True:
     for chat in msgs:
         one_msgs = msgs.get(chat)   # 获取消息内容
         
-        # 回复收到
+        # AI回复
         for msg in one_msgs:
             if msg.type == 'friend':
                 sender = msg.sender 
